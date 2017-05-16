@@ -1,0 +1,6 @@
+2016.3
+C:\Xilinx
+3121
+S:\SAKINDER-LAPTOP\rep\rep\projects\by_card\fb173_pro_r7\FB173\FB173.sdk\fsbl\Debug\fsbl.elf
+S:\SAKINDER-LAPTOP\rep\rep\projects\by_card\fb173_pro_r7\FB173\FB173.sdk\soc_hw_platform_0\soc.bit
+S:\SAKINDER-LAPTOP\rep\rep\projects\by_card\fb173_pro_r7\FB173\FB173.sdk\fb173_test_software\Debug\fb173_test_software.elf

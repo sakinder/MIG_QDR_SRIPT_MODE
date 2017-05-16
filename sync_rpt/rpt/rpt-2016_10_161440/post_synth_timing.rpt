@@ -1,0 +1,186 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.3 (win64) Build 1682563 Mon Oct 10 19:07:27 MDT 2016
+| Date         : Sun Oct 16 14:34:15 2016
+| Host         : Sakinder-Laptop running 64-bit major release  (build 9200)
+| Command      : report_timing -sort_by group -max_paths 5 -path_type summary -file S:/GoogleDrive/firmware/mars/m_s_r_0_0/outputs/rpt/post_synth_timing.rpt
+| Design       : top
+| Device       : 7z045-ffg900
+| Speed File   : -2  PRODUCTION 1.11 2014-09-11
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Timing Report
+
+Startpoint                     Endpoint                       Slack(ns)     
+----------------------------------------------------------------------------
+u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_0.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_C.qdr_rld_byte_lane_C/PHASER_OUT_inst.phaser_out/OCLK
+                               u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_0.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_C.qdr_rld_byte_lane_C/qdr_rld_byte_group_io/o_serdesd_[5].gen_oserdes_uni.gen_oserdes_uni_notri.oserdes_d_i/D2
+                                                              -0.175        
+u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_0.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_D.qdr_rld_byte_lane_D/PHASER_OUT_inst.phaser_out/OCLK
+                               u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_0.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_D.qdr_rld_byte_lane_D/qdr_rld_byte_group_io/o_serdesd_[7].gen_oserdes_uni.gen_oserdes_uni_notri.oserdes_d_i/D3
+                                                              -0.139        
+u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_0.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_D.qdr_rld_byte_lane_D/PHASER_OUT_inst.phaser_out/OCLK
+                               u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_0.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_D.qdr_rld_byte_lane_D/qdr_rld_byte_group_io/o_serdesd_[8].gen_oserdes_uni.gen_oserdes_uni_notri.oserdes_d_i/D3
+                                                              -0.139        
+u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_0.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_D.qdr_rld_byte_lane_D/PHASER_OUT_inst.phaser_out/OCLK
+                               u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_0.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_D.qdr_rld_byte_lane_D/qdr_rld_byte_group_io/o_serdesd_[7].gen_oserdes_uni.gen_oserdes_uni_notri.oserdes_d_i/D1
+                                                              -0.113        
+u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_0.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_D.qdr_rld_byte_lane_D/PHASER_OUT_inst.phaser_out/OCLK
+                               u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_0.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_D.qdr_rld_byte_lane_D/qdr_rld_byte_group_io/o_serdesd_[7].gen_oserdes_uni.gen_oserdes_uni_notri.oserdes_d_i/D4
+                                                              -0.113        
+u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_0.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_D.qdr_rld_byte_lane_D/PHASER_OUT_inst.phaser_out/OCLK
+                               u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_0.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_D.qdr_rld_byte_lane_D/qdr_rld_byte_group_io/o_serdesd_[8].gen_oserdes_uni.gen_oserdes_uni_notri.oserdes_d_i/D1
+                                                              -0.113        
+u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_0.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_C.qdr_rld_byte_lane_C/PHASER_OUT_inst.phaser_out/OCLK
+                               u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_0.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_C.qdr_rld_byte_lane_C/qdr_rld_byte_group_io/o_serdesd_[10].gen_oserdes_uni.gen_oserdes_uni_notri.oserdes_d_i/D1
+                                                              -0.110        
+u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_0.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_C.qdr_rld_byte_lane_C/PHASER_OUT_inst.phaser_out/OCLK
+                               u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_0.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_C.qdr_rld_byte_lane_C/qdr_rld_byte_group_io/o_serdesd_[10].gen_oserdes_uni.gen_oserdes_uni_notri.oserdes_d_i/D4
+                                                              -0.110        
+u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_0.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_C.qdr_rld_byte_lane_C/PHASER_OUT_inst.phaser_out/OCLK
+                               u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_0.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_C.qdr_rld_byte_lane_C/qdr_rld_byte_group_io/o_serdesd_[11].gen_oserdes_uni.gen_oserdes_uni_notri.oserdes_d_i/D2
+                                                              -0.108        
+u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_0.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_C.qdr_rld_byte_lane_C/PHASER_OUT_inst.phaser_out/OCLK
+                               u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_0.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_C.qdr_rld_byte_lane_C/qdr_rld_byte_group_io/o_serdesd_[10].gen_oserdes_uni.gen_oserdes_uni_notri.oserdes_d_i/D2
+                                                              -0.101        
+u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_1.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_C.qdr_rld_byte_lane_C/PHASER_OUT_inst.phaser_out/OCLK
+                               u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_1.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_C.qdr_rld_byte_lane_C/qdr_rld_byte_group_io/o_serdesd_[2].gen_oserdes_uni.gen_oserdes_uni_notri.oserdes_d_i/D1
+                                                              0.470         
+u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_1.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_C.qdr_rld_byte_lane_C/PHASER_OUT_inst.phaser_out/OCLK
+                               u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_1.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_C.qdr_rld_byte_lane_C/qdr_rld_byte_group_io/o_serdesd_[2].gen_oserdes_uni.gen_oserdes_uni_notri.oserdes_d_i/D4
+                                                              0.470         
+u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_1.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_C.qdr_rld_byte_lane_C/PHASER_OUT_inst.phaser_out/OCLK
+                               u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_1.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_C.qdr_rld_byte_lane_C/qdr_rld_byte_group_io/o_serdesd_[10].gen_oserdes_uni.gen_oserdes_uni_notri.oserdes_d_i/D2
+                                                              0.547         
+u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_1.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_C.qdr_rld_byte_lane_C/PHASER_OUT_inst.phaser_out/OCLK
+                               u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_1.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_C.qdr_rld_byte_lane_C/qdr_rld_byte_group_io/o_serdesd_[11].gen_oserdes_uni.gen_oserdes_uni_notri.oserdes_d_i/D3
+                                                              0.589         
+u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_1.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_C.qdr_rld_byte_lane_C/PHASER_OUT_inst.phaser_out/OCLK
+                               u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_1.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_C.qdr_rld_byte_lane_C/qdr_rld_byte_group_io/o_serdesd_[6].gen_oserdes_uni.gen_oserdes_uni_notri.oserdes_d_i/D2
+                                                              0.614         
+u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_1.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_A.qdr_rld_byte_lane_A/PHASER_OUT_inst.phaser_out/OCLK
+                               u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_1.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_A.qdr_rld_byte_lane_A/qdr_rld_byte_group_io/o_serdesd_[9].gen_oserdes_uni.gen_oserdes_uni_notri.oserdes_d_i/D3
+                                                              0.843         
+u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_1.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_A.qdr_rld_byte_lane_A/PHASER_OUT_inst.phaser_out/OCLK
+                               u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_1.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_A.qdr_rld_byte_lane_A/qdr_rld_byte_group_io/o_serdesd_[9].gen_oserdes_uni.gen_oserdes_uni_notri.oserdes_d_i/D2
+                                                              0.846         
+u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_1.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_A.qdr_rld_byte_lane_A/PHASER_OUT_inst.phaser_out/OCLK
+                               u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_1.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_A.qdr_rld_byte_lane_A/qdr_rld_byte_group_io/o_serdesd_[9].gen_oserdes_uni.gen_oserdes_uni_notri.oserdes_d_i/D1
+                                                              0.918         
+u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_1.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_A.qdr_rld_byte_lane_A/PHASER_OUT_inst.phaser_out/OCLK
+                               u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_1.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_A.qdr_rld_byte_lane_A/qdr_rld_byte_group_io/o_serdesd_[9].gen_oserdes_uni.gen_oserdes_uni_notri.oserdes_d_i/D4
+                                                              0.918         
+u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_infrastructure/plle2_i/CLKOUT2
+                               u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_1.u_qdr_rld_phy_4lanes/PHY_CONTROL_INST.phy_control_i/SYNCIN
+                                                              1.080         
+u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_infrastructure/plle2_i/CLKOUT2
+                               u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_0.u_qdr_rld_phy_4lanes/PHY_CONTROL_INST.phy_control_i/SYNCIN
+                                                              1.112         
+u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_1.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_A.qdr_rld_byte_lane_A/PHASER_OUT_inst.phaser_out/OCLK
+                               u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_1.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_A.qdr_rld_byte_lane_A/qdr_rld_byte_group_io/o_serdesd_[6].gen_oserdes_uni.gen_oserdes_uni_notri.oserdes_d_i/D2
+                                                              1.272         
+u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_0.u_qdr_rld_phy_4lanes/PHY_CONTROL_INST.phy_control_i/MEMREFCLK
+                               u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_0.u_qdr_rld_phy_4lanes/PHY_CONTROL_INST.phy_control_i/PHYCTLMSTREMPTY
+                                                              1.628         
+u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_infrastructure/rstdiv2_sync_r_reg[11]/C
+                               u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_infrastructure/rstdiv2_sync_r1_reg/D
+                                                              1.948         
+u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_infrastructure/rstdiv2_sync_r_reg[9]/C
+                               u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_infrastructure/rstdiv2_sync_r_reg[10]/D
+                                                              1.948         
+u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_infrastructure/rstdiv2_sync_r_reg[10]/C
+                               u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_infrastructure/rstdiv2_sync_r_reg[11]/D
+                                                              1.948         
+u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_infrastructure/rstdiv2_sync_r_reg[0]/C
+                               u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_infrastructure/rstdiv2_sync_r_reg[1]/D
+                                                              1.948         
+u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_infrastructure/rstdiv2_sync_r_reg[1]/C
+                               u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_infrastructure/rstdiv2_sync_r_reg[2]/D
+                                                              1.948         
+u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_0.u_qdr_rld_phy_4lanes/PHY_CONTROL_INST.phy_control_i/MEMREFCLK
+                               u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_1.u_qdr_rld_phy_4lanes/PHY_CONTROL_INST.phy_control_i/PHYCTLMSTREMPTY
+                                                              2.023         
+u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_phy_wr_top/u_qdr_phy_wr_init_sm/phy_init_r_reg[9]/C
+                               u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_phy_wr_top/u_qdr_phy_wr_init_sm/sm_cntr_r_reg[5]/S
+                                                              2.063         
+u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_phy_wr_top/u_qdr_phy_wr_init_sm/phy_init_r_reg[9]/C
+                               u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_phy_wr_top/u_qdr_phy_wr_init_sm/sm_cntr_r_reg[6]/S
+                                                              2.063         
+u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_phy_wr_top/u_qdr_phy_wr_init_sm/phy_init_r_reg[9]/C
+                               u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_phy_wr_top/u_qdr_phy_wr_init_sm/sm_cntr_r_reg[7]/S
+                                                              2.063         
+u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_phy_wr_top/u_qdr_phy_wr_init_sm/phy_init_r_reg[9]/C
+                               u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_phy_wr_top/u_qdr_phy_wr_init_sm/sm_cntr_r_reg[8]/S
+                                                              2.063         
+u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_phy_read_top/u_qdr_rld_phy_rdlvl/dlyval_r_reg[0]/C
+                               u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_phy_read_top/u_qdr_rld_phy_rdlvl/sm_wait_r_reg[0]/CE
+                                                              2.147         
+u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_infrastructure/rstdiv0_sync_r1_reg/C
+                               u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_0.u_qdr_rld_phy_4lanes/PHY_CONTROL_INST.phy_control_i/RESET
+                                                              2.348         
+u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_infrastructure/rstdiv0_sync_r1_reg/C
+                               u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_1.u_qdr_rld_phy_4lanes/PHY_CONTROL_INST.phy_control_i/RESET
+                                                              2.348         
+u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_2.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_D.qdr_rld_byte_lane_D/qdr_rld_byte_group_io/i_serdesq_[6].gen_iserdes.iserdesq/CLKDIVP
+                               u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_2.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_D.qdr_rld_byte_lane_D/in_fifo_inst.in_fifo/D6[1]
+                                                              2.645         
+u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_2.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_D.qdr_rld_byte_lane_D/qdr_rld_byte_group_io/i_serdesq_[6].gen_iserdes.iserdesq/CLKDIVP
+                               u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_2.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_D.qdr_rld_byte_lane_D/in_fifo_inst.in_fifo/D6[0]
+                                                              2.659         
+u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_2.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_D.qdr_rld_byte_lane_D/qdr_rld_byte_group_io/i_serdesq_[6].gen_iserdes.iserdesq/CLKDIVP
+                               u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_2.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_D.qdr_rld_byte_lane_D/in_fifo_inst.in_fifo/D6[3]
+                                                              2.659         
+u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_2.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_C.qdr_rld_byte_lane_C/qdr_rld_byte_group_io/i_serdesq_[0].gen_iserdes.iserdesq/CLKDIVP
+                               u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_2.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_C.qdr_rld_byte_lane_C/in_fifo_inst.in_fifo/D0[1]
+                                                              2.702         
+u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_2.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_D.qdr_rld_byte_lane_D/qdr_rld_byte_group_io/i_serdesq_[6].gen_iserdes.iserdesq/CLKDIVP
+                               u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_2.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_D.qdr_rld_byte_lane_D/in_fifo_inst.in_fifo/D6[2]
+                                                              2.729         
+u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_2.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_C.qdr_rld_byte_lane_C/qdr_rld_byte_group_io/i_serdesq_[4].gen_iserdes.iserdesq/CLKDIVP
+                               u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_2.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_C.qdr_rld_byte_lane_C/in_fifo_inst.in_fifo/D4[2]
+                                                              2.828         
+u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_2.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_C.qdr_rld_byte_lane_C/qdr_rld_byte_group_io/i_serdesq_[0].gen_iserdes.iserdesq/CLKDIVP
+                               u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_2.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_C.qdr_rld_byte_lane_C/in_fifo_inst.in_fifo/D0[2]
+                                                              2.841         
+u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_2.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_C.qdr_rld_byte_lane_C/qdr_rld_byte_group_io/i_serdesq_[11].gen_iserdes.iserdesq/CLKDIVP
+                               u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_2.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_C.qdr_rld_byte_lane_C/in_fifo_inst.in_fifo/D6[5]
+                                                              2.853         
+u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_2.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_C.qdr_rld_byte_lane_C/qdr_rld_byte_group_io/i_serdesq_[0].gen_iserdes.iserdesq/CLKDIVP
+                               u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_2.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_C.qdr_rld_byte_lane_C/in_fifo_inst.in_fifo/D0[0]
+                                                              2.901         
+u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_2.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_D.qdr_rld_byte_lane_D/qdr_rld_byte_group_io/i_serdesq_[7].gen_iserdes.iserdesq/CLKDIVP
+                               u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_2.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_D.qdr_rld_byte_lane_D/in_fifo_inst.in_fifo/D7[0]
+                                                              3.121         
+u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_infrastructure/rst_sync_r1_reg/C
+                               u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_phy_wr_top/u_qdr_phy_poc_pd0/u_phase_detector/R
+                                                              3.775         
+u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_infrastructure/rst_sync_r1_reg/C
+                               u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_phy_wr_top/u_qdr_phy_poc_pd1/u_phase_detector/R
+                                                              3.775         
+u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_iodelay_ctrl/rst_ref_sync_r_reg[0][9]/C
+                               u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_iodelay_ctrl/rst_ref_sync_r_reg[0][10]/D
+                                                              4.305         
+u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_iodelay_ctrl/rst_ref_sync_r_reg[0][10]/C
+                               u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_iodelay_ctrl/rst_ref_sync_r_reg[0][11]/D
+                                                              4.305         
+u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_iodelay_ctrl/rst_ref_sync_r_reg[0][11]/C
+                               u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_iodelay_ctrl/rst_ref_sync_r_reg[0][12]/D
+                                                              4.305         
+u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_iodelay_ctrl/rst_ref_sync_r_reg[0][12]/C
+                               u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_iodelay_ctrl/rst_ref_sync_r_reg[0][13]/D
+                                                              4.305         
+u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_iodelay_ctrl/rst_ref_sync_r_reg[0][13]/C
+                               u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_iodelay_ctrl/rst_ref_sync_r_reg[0][14]/D
+                                                              4.305         
+u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_infrastructure/rstdiv0_sync_r1_reg_rep__2/C
+                               u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_infrastructure/first_rising_ps_clk_r_reg/D
+                                                              4.403         
+u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_infrastructure/rst_sync_r_reg[11]/C
+                               u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_infrastructure/rst_sync_r1_reg/D
+                                                              9.932         
+u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_infrastructure/rst_sync_r_reg[9]/C
+                               u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_infrastructure/rst_sync_r_reg[10]/D
+                                                              9.932         
+
+
+

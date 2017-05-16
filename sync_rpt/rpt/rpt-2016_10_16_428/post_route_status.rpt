@@ -1,0 +1,74 @@
+Design Route Status
+                                               :      # nets :
+   ------------------------------------------- : ----------- :
+   # of logical nets.......................... :         312 :
+       # of nets not needing routing.......... :          56 :
+           # of internally routed nets........ :          55 :
+           # of nets with no loads............ :           1 :
+       # of routable nets..................... :         256 :
+           # of unrouted nets................. :           3 :
+           # of fully routed nets............. :         248 :
+       # of nets with routing errors.......... :           5 :
+           # of nets with some unrouted pins.. :           5 :
+   ------------------------------------------- : ----------- :
+
+
+Nets with Routing Errors:
+  u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_0.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_C.qdr_rld_byte_lane_C/oserdes_clkdiv
+    Unrouted Pins -- only the first 10 are listed, use -show_all to get the full list:
+      u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_0.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_C.qdr_rld_byte_lane_C/qdr_rld_byte_group_io/o_serdesd_[10].gen_oserdes_uni.gen_oserdes_uni_notri.oserdes_d_i/CLKDIV
+      u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_0.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_C.qdr_rld_byte_lane_C/qdr_rld_byte_group_io/o_serdesd_[11].gen_oserdes_uni.gen_oserdes_uni_notri.oserdes_d_i/CLKDIV
+      u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_0.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_C.qdr_rld_byte_lane_C/qdr_rld_byte_group_io/o_serdesd_[1].gen_oserdes_uni.gen_oserdes_uni_notri.oserdes_d_i/CLKDIV
+      u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_0.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_C.qdr_rld_byte_lane_C/qdr_rld_byte_group_io/o_serdesd_[2].gen_oserdes_uni.gen_oserdes_uni_notri.oserdes_d_i/CLKDIV
+      u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_0.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_C.qdr_rld_byte_lane_C/qdr_rld_byte_group_io/o_serdesd_[3].gen_oserdes_uni.gen_oserdes_uni_notri.oserdes_d_i/CLKDIV
+      u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_0.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_C.qdr_rld_byte_lane_C/qdr_rld_byte_group_io/o_serdesd_[4].gen_oserdes_uni.gen_oserdes_uni_notri.oserdes_d_i/CLKDIV
+      u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_0.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_C.qdr_rld_byte_lane_C/qdr_rld_byte_group_io/o_serdesd_[5].gen_oserdes_uni.gen_oserdes_uni_notri.oserdes_d_i/CLKDIV
+      u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_0.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_C.qdr_rld_byte_lane_C/qdr_rld_byte_group_io/o_serdesd_[6].gen_oserdes_uni.gen_oserdes_uni_notri.oserdes_d_i/CLKDIV
+      u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_0.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_C.qdr_rld_byte_lane_C/qdr_rld_byte_group_io/o_serdesd_[7].gen_oserdes_uni.gen_oserdes_uni_notri.oserdes_d_i/CLKDIV
+      u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_0.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_C.qdr_rld_byte_lane_C/qdr_rld_byte_group_io/o_serdesd_[8].gen_oserdes_uni.gen_oserdes_uni_notri.oserdes_d_i/CLKDIV
+  u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_0.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_D.qdr_rld_byte_lane_D/oserdes_clkdiv
+    Unrouted Pins:
+      u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_0.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_D.qdr_rld_byte_lane_D/qdr_rld_byte_group_io/o_serdesd_[1].gen_oserdes_uni.gen_oserdes_uni_notri.oserdes_d_i/CLKDIV
+      u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_0.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_D.qdr_rld_byte_lane_D/qdr_rld_byte_group_io/o_serdesd_[2].gen_oserdes_uni.gen_oserdes_uni_notri.oserdes_d_i/CLKDIV
+      u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_0.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_D.qdr_rld_byte_lane_D/qdr_rld_byte_group_io/o_serdesd_[3].gen_oserdes_uni.gen_oserdes_uni_notri.oserdes_d_i/CLKDIV
+      u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_0.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_D.qdr_rld_byte_lane_D/qdr_rld_byte_group_io/o_serdesd_[4].gen_oserdes_uni.gen_oserdes_uni_notri.oserdes_d_i/CLKDIV
+      u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_0.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_D.qdr_rld_byte_lane_D/qdr_rld_byte_group_io/o_serdesd_[5].gen_oserdes_uni.gen_oserdes_uni_notri.oserdes_d_i/CLKDIV
+      u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_0.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_D.qdr_rld_byte_lane_D/qdr_rld_byte_group_io/o_serdesd_[6].gen_oserdes_uni.gen_oserdes_uni_notri.oserdes_d_i/CLKDIV
+      u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_0.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_D.qdr_rld_byte_lane_D/qdr_rld_byte_group_io/o_serdesd_[7].gen_oserdes_uni.gen_oserdes_uni_notri.oserdes_d_i/CLKDIV
+      u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_0.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_D.qdr_rld_byte_lane_D/qdr_rld_byte_group_io/o_serdesd_[8].gen_oserdes_uni.gen_oserdes_uni_notri.oserdes_d_i/CLKDIV
+      u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_0.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_D.qdr_rld_byte_lane_D/qdr_rld_byte_group_io/o_serdesd_[9].gen_oserdes_uni.gen_oserdes_uni_notri.oserdes_d_i/CLKDIV
+  u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_1.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_A.qdr_rld_byte_lane_A/oserdes_clkdiv
+    Unrouted Pins:
+      u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_1.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_A.qdr_rld_byte_lane_A/qdr_rld_byte_group_io/o_serdesd_[10].gen_oserdes_uni.gen_oserdes_uni_notri.oserdes_d_i/CLKDIV
+      u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_1.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_A.qdr_rld_byte_lane_A/qdr_rld_byte_group_io/o_serdesd_[11].gen_oserdes_uni.gen_oserdes_uni_notri.oserdes_d_i/CLKDIV
+      u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_1.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_A.qdr_rld_byte_lane_A/qdr_rld_byte_group_io/o_serdesd_[2].gen_oserdes_uni.gen_oserdes_uni_notri.oserdes_d_i/CLKDIV
+      u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_1.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_A.qdr_rld_byte_lane_A/qdr_rld_byte_group_io/o_serdesd_[3].gen_oserdes_uni.gen_oserdes_uni_notri.oserdes_d_i/CLKDIV
+      u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_1.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_A.qdr_rld_byte_lane_A/qdr_rld_byte_group_io/o_serdesd_[4].gen_oserdes_uni.gen_oserdes_uni_notri.oserdes_d_i/CLKDIV
+      u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_1.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_A.qdr_rld_byte_lane_A/qdr_rld_byte_group_io/o_serdesd_[5].gen_oserdes_uni.gen_oserdes_uni_notri.oserdes_d_i/CLKDIV
+      u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_1.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_A.qdr_rld_byte_lane_A/qdr_rld_byte_group_io/o_serdesd_[6].gen_oserdes_uni.gen_oserdes_uni_notri.oserdes_d_i/CLKDIV
+      u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_1.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_A.qdr_rld_byte_lane_A/qdr_rld_byte_group_io/o_serdesd_[7].gen_oserdes_uni.gen_oserdes_uni_notri.oserdes_d_i/CLKDIV
+      u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_1.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_A.qdr_rld_byte_lane_A/qdr_rld_byte_group_io/o_serdesd_[8].gen_oserdes_uni.gen_oserdes_uni_notri.oserdes_d_i/CLKDIV
+      u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_1.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_A.qdr_rld_byte_lane_A/qdr_rld_byte_group_io/o_serdesd_[9].gen_oserdes_uni.gen_oserdes_uni_notri.oserdes_d_i/CLKDIV
+  u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_1.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_C.qdr_rld_byte_lane_C/oserdes_clk
+    Unrouted Pins:
+      u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_1.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_C.qdr_rld_byte_lane_C/qdr_rld_byte_group_io/o_serdesd_[0].gen_oserdes_uni.gen_oserdes_uni_notri.oserdes_d_i/CLK
+      u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_1.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_C.qdr_rld_byte_lane_C/qdr_rld_byte_group_io/o_serdesd_[10].gen_oserdes_uni.gen_oserdes_uni_notri.oserdes_d_i/CLK
+      u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_1.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_C.qdr_rld_byte_lane_C/qdr_rld_byte_group_io/o_serdesd_[11].gen_oserdes_uni.gen_oserdes_uni_notri.oserdes_d_i/CLK
+      u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_1.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_C.qdr_rld_byte_lane_C/qdr_rld_byte_group_io/o_serdesd_[1].gen_oserdes_uni.gen_oserdes_uni_notri.oserdes_d_i/CLK
+      u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_1.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_C.qdr_rld_byte_lane_C/qdr_rld_byte_group_io/o_serdesd_[2].gen_oserdes_uni.gen_oserdes_uni_notri.oserdes_d_i/CLK
+      u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_1.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_C.qdr_rld_byte_lane_C/qdr_rld_byte_group_io/o_serdesd_[3].gen_oserdes_uni.gen_oserdes_uni_notri.oserdes_d_i/CLK
+      u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_1.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_C.qdr_rld_byte_lane_C/qdr_rld_byte_group_io/o_serdesd_[4].gen_oserdes_uni.gen_oserdes_uni_notri.oserdes_d_i/CLK
+      u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_1.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_C.qdr_rld_byte_lane_C/qdr_rld_byte_group_io/o_serdesd_[6].gen_oserdes_uni.gen_oserdes_uni_notri.oserdes_d_i/CLK
+      u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_1.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_C.qdr_rld_byte_lane_C/qdr_rld_byte_group_io/o_serdesd_[7].gen_oserdes_uni.gen_oserdes_uni_notri.oserdes_d_i/CLK
+  u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_1.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_C.qdr_rld_byte_lane_C/oserdes_clkdiv
+    Unrouted Pins:
+      u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_1.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_C.qdr_rld_byte_lane_C/qdr_rld_byte_group_io/o_serdesd_[0].gen_oserdes_uni.gen_oserdes_uni_notri.oserdes_d_i/CLKDIV
+      u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_1.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_C.qdr_rld_byte_lane_C/qdr_rld_byte_group_io/o_serdesd_[10].gen_oserdes_uni.gen_oserdes_uni_notri.oserdes_d_i/CLKDIV
+      u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_1.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_C.qdr_rld_byte_lane_C/qdr_rld_byte_group_io/o_serdesd_[11].gen_oserdes_uni.gen_oserdes_uni_notri.oserdes_d_i/CLKDIV
+      u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_1.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_C.qdr_rld_byte_lane_C/qdr_rld_byte_group_io/o_serdesd_[1].gen_oserdes_uni.gen_oserdes_uni_notri.oserdes_d_i/CLKDIV
+      u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_1.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_C.qdr_rld_byte_lane_C/qdr_rld_byte_group_io/o_serdesd_[2].gen_oserdes_uni.gen_oserdes_uni_notri.oserdes_d_i/CLKDIV
+      u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_1.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_C.qdr_rld_byte_lane_C/qdr_rld_byte_group_io/o_serdesd_[3].gen_oserdes_uni.gen_oserdes_uni_notri.oserdes_d_i/CLKDIV
+      u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_1.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_C.qdr_rld_byte_lane_C/qdr_rld_byte_group_io/o_serdesd_[4].gen_oserdes_uni.gen_oserdes_uni_notri.oserdes_d_i/CLKDIV
+      u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_1.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_C.qdr_rld_byte_lane_C/qdr_rld_byte_group_io/o_serdesd_[6].gen_oserdes_uni.gen_oserdes_uni_notri.oserdes_d_i/CLKDIV
+      u_mig_qdr_rev4/u_mig_qdr_rev4_mig/u_qdr_phy_top/u_qdr_rld_mc_phy/qdr_rld_phy_4lanes_1.u_qdr_rld_phy_4lanes/qdr_rld_byte_lane_C.qdr_rld_byte_lane_C/qdr_rld_byte_group_io/o_serdesd_[7].gen_oserdes_uni.gen_oserdes_uni_notri.oserdes_d_i/CLKDIV
+
